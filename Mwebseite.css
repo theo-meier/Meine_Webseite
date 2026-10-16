@@ -1,0 +1,210 @@
+.header{
+   
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    grid-template: 50%;
+    font-size: 20px;
+}
+    
+.hintergrundbild {
+    background-image: url("https://c.wallhere.com/photos/1e/08/2560x1600_px_forest_lake_landscape_mountain_nature_Trees_water-1104731.jpg!d");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 100vh;
+    border-radius: 0;
+}
+
+.hintergrundbild button {
+    position: absolute;
+    bottom: 5%;
+    right: 45%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0091CB;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+@media (max-width: 1300px) {
+    .hintergrundbild {
+        min-height: 70vh;
+        background-position: center;
+    }
+    .header {
+        height: 5%;
+    }
+    .hintergrundbild button{
+        bottom: 30%;
+    }
+}
+@media (max-width: 600px) {
+    .hintergrundbild {
+        min-height: 40vh;
+        background-position: center;
+    }
+    .header {
+        height: 5%;
+    }
+    .hintergrundbild button {
+        bottom: 10%;
+    }
+}
+.übermich{
+    display: flex;
+    flex-wrap:wrap;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.text{
+    padding: 20px;
+    max-width: 900px;
+}
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 30px;
+}
+.familie-alt{
+    background-color: #002B87;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.familie-jung{
+    background-color: #002B87;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.stephanie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    font-size: 200%;
+}
+.simon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    font-size: 200%;
+}
+.marlen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    font-size: 200%;
+}
+.ida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    font-size: 200%;
+}
+.theo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    font-size: 200%;
+}
+.paul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    font-size: 200%;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes fadeIn1 {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.Tennis{
+    animation: fadeIn backwards;
+    animation-timeline: view();
+    animation-range-start: 0%;
+    animation-range-end: 70%;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    max-width:100%;
+    gap: 20px;
+}
+.Fussball{
+    animation: fadeIn1 backwards;
+    animation-timeline: view();
+    animation-range-start: 0%;
+    animation-range-end: 32%;
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width:100%;
+    gap: 20px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+td {
+    padding: 10px 15px;
+}
